@@ -10,18 +10,19 @@ Required Python packages (install using pip):
 osmnx
 geopandas
 matplotlib
+shapely
 
 Run the urban_green_spaces_route_planner.py script using your preferred Python interpreter.
 
-Specify the Location:
+# Specify the Location:
 
 In the script, specify the location for which you want to plan the route by setting the place_name variable to the desired city or area, e.g., 'Vancouver,Canada'.
 
-Run the Script:
+# Run the Script:
 
 Execute the script, and it will generate a map showing various route options. The script will identify urban green spaces, compute route lengths, and provide time comparisons between direct routes and routes through green spaces.
 
-Script Description
+# Script Description
 The script performs the following steps:
 
 Extracts the OSM street network using the osmnx library for the specified location.
@@ -30,8 +31,11 @@ Prompts the user to click on the map to select start and end points for the rout
 Computes the shortest path routes using the ox.shortest_path function.
 Compares route options based on the presence of urban green spaces.
 Plots the routes on a map, highlighting urban green spaces and providing time comparisons.
-Additional Information
+
+# Additional Information
+
 The script offers flexibility to handle different scenarios based on the number and size of urban green spaces within the specified area.
 The walking speed for route calculations is set as a constant, which can be adjusted based on preferences.
-Disclaimer
+
+# Disclaimer
 Please note that the accuracy and availability of OSM data can vary. The script's functionality is dependent on the data available for the specified location.
