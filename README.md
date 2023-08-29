@@ -1,24 +1,15 @@
 # Shortest-path-through-urban-green-spaces-software
 
-The Urban Green Spaces Route Planner is a Python script designed to help users plan walking routes that incorporate urban green spaces within a specified city or area. The script utilizes the OpenStreetMap (OSM) data and the osmnx library to extract street network information, identify green spaces, and calculate optimal walking routes that maximize exposure to green areas. It also compares the travel time between the direct route and the route that includes urban green spaces.
+The Shortest path through urban green spaces software is a Python script designed to help users plan walking routes that incorporate urban green spaces within a specified city or area. The script utilizes the OpenStreetMap (OSM) data and the osmnx library to extract street network information, identify green spaces, and calculate optimal walking routes that maximize exposure to green areas. It also compares the travel time between the direct route and the route that includes urban green spaces.
 
-Prerequisites
+# Prerequisites
 Before running the script, ensure you have the following:
 
-Python (3.6 or higher)
+Python (3.10)
 Required Python packages (install using pip):
 osmnx
 geopandas
 matplotlib
-How to Use
-Install Dependencies:
-
-Install the required Python packages using the following command:
-
-bash
-Copy code
-pip install osmnx geopandas matplotlib
-Run the Script:
 
 Run the urban_green_spaces_route_planner.py script using your preferred Python interpreter.
 
